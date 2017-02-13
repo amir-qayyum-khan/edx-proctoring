@@ -2,13 +2,13 @@
 <div class="sequence timed-exam entrance" data-exam-id="{{exam_id}}">
   <h3>
     {% blocktrans %}
-    {{ exam_name }} is a Timed Exam ({{total_time}})
+    {{ exam_name }} is a Timed Test ({{total_time}})
     {% endblocktrans %}
   </h3>
   <p>
     {% trans "This test has a time limit associated with it." %}
     <strong>
-      {% trans "To pass this exam, you must complete the problems in the time allowed." %}
+      {% trans "To pass this test, you must complete the questions in the time allowed." %}
     </strong>
     {% trans "Your time starts exactly at 3:00pm. No additional time will be allowed." %}
   </p>
@@ -57,7 +57,7 @@
         ).fail(function(){
           enableClickEvent();
           var msg = gettext(
-            "There has been a problem starting your exam.\n\n" +
+            "There has been a problem starting your test.\n\n" +
             "Possible reasons are that your account has not been fully activated,\n" +
             "you are experiencing a network connection problem, or there has been\n" +
             "a service disruption. Please check these potential problems and try again."
