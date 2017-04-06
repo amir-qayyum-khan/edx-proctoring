@@ -1869,6 +1869,18 @@ def get_student_view(user_id, course_id, content_id,
     is_proctored_exam = exam['is_proctored'] and not exam['is_practice_exam']
     is_timed_exam = not exam['is_proctored'] and not exam['is_practice_exam']
 
+    progress_page_url = ''
+    try:
+        progress_page_url = reverse(
+            'courseware.views.views.progress',
+            args=[course_id]
+        )
+    except NoReverseMatch:
+        log.exception("Can't find progress url for course %s", course_id)
+
+    context.update({
+        'progress_page_url': progress_page_url
+    })
     sub_view_func = None
     if is_timed_exam:
         sub_view_func = _get_timed_exam_view
