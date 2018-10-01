@@ -18,878 +18,839 @@ msgstr ""
 "Language: ur\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: edx_proctoring/admin.py:88
+
+#: admin.py:88
 msgid "internally reviewed"
-msgstr ""
+msgstr "اندرونی جائزہ لیا"
 
-#: edx_proctoring/admin.py:97
+#: admin.py:97
 msgid "All Unreviewed"
-msgstr ""
+msgstr "تمام ناظر"
 
-#: edx_proctoring/admin.py:98
+#: admin.py:98
 msgid "All Unreviewed Failures"
-msgstr ""
+msgstr "تمام ناپسندیدہ ناکامیاں"
 
-#: edx_proctoring/admin.py:119
+#: admin.py:119
 msgid "active proctored exams"
-msgstr ""
+msgstr "فعال پروکرمی امتحان"
 
-#: edx_proctoring/admin.py:177
+#: admin.py:177
 msgid "courses with active proctored exams"
-msgstr ""
+msgstr "فعال پروکرمی امتحان کے ساتھ کورس"
 
-#: edx_proctoring/admin.py:342
+#: admin.py:342
 msgid "Course Id"
-msgstr ""
+msgstr "کورس کی شناخت"
 
-#: edx_proctoring/admin.py:380
+#: admin.py:380
 msgid "Created"
-msgstr ""
+msgstr "تخلیق"
 
-#: edx_proctoring/admin.py:381
+#: admin.py:381
 msgid "Download Software Clicked"
-msgstr ""
+msgstr "سافٹ ویئر ڈاؤن لوڈ کردہ کلک کریں"
 
-#: edx_proctoring/admin.py:382
+#: admin.py:382
 msgid "Ready To Start"
-msgstr ""
+msgstr "شروع کرنے کے لئے تیار"
 
-#: edx_proctoring/admin.py:383
+#: admin.py:383
 msgid "Started"
-msgstr ""
+msgstr "شروع"
 
-#: edx_proctoring/admin.py:384
+#: admin.py:384
 msgid "Ready To Submit"
-msgstr ""
+msgstr "جمع کرنے کے لئے تیار"
 
-#: edx_proctoring/admin.py:385
+#: admin.py:385
 msgid "Declined"
-msgstr ""
+msgstr "بیان کردہ"
 
-#: edx_proctoring/admin.py:386
+#: admin.py:386
 msgid "Timed Out"
-msgstr ""
+msgstr "وقت ختم"
 
-#: edx_proctoring/admin.py:387
+#: admin.py:387
 msgid "Submitted"
-msgstr ""
+msgstr "پیش کردہ"
 
-#: edx_proctoring/admin.py:388
+#: admin.py:388
 msgid "Second Review Required"
-msgstr ""
+msgstr "دوسرا جائزہ لینے کی ضرورت ہے"
 
-#: edx_proctoring/admin.py:389
+#: admin.py:389
 msgid "Verified"
 msgstr "تصدیق شدہ"
 
-#: edx_proctoring/admin.py:390
+#: admin.py:390
 msgid "Rejected"
-msgstr ""
+msgstr "مسترد"
 
-#: edx_proctoring/admin.py:391
+#: admin.py:391
 msgid "Error"
-msgstr "نقص "
+msgstr "غلطی"
 
-#: edx_proctoring/api.py:902
+#: api.py:902
 msgid "your course"
-msgstr ""
+msgstr "آپ کا کورس"
 
-#: edx_proctoring/api.py:962
-#, python-brace-format
+#: api.py:962
 msgid "Proctoring Session Results Update for {course_name} {exam_name}"
-msgstr ""
+msgstr "{course_name} {exam_name} کے لئے پروکیکشن سیشن کے نتائج اپ ڈیٹ"
 
-#: edx_proctoring/api.py:1284
+#: api.py:1284
 msgid "Taking As Proctored Exam"
-msgstr ""
+msgstr "پروکارڈ امتحان کے طور پر لے"
 
-#: edx_proctoring/api.py:1289
+#: api.py:1289
 msgid "Proctored Option Available"
-msgstr ""
+msgstr "پروکیکٹ اختیار دستیاب ہے"
 
-#: edx_proctoring/api.py:1294
+#: api.py:1294
 msgid "Taking As Open Exam"
-msgstr ""
+msgstr "کھولیں امتحان کے طور پر لے جا رہا ہے"
 
-#: edx_proctoring/api.py:1299 edx_proctoring/api.py:1304
+#: api.py:1299 api.py:1304
 msgid "Pending Session Review"
-msgstr ""
+msgstr "زیر التواء سیشن کا جائزہ"
 
-#: edx_proctoring/api.py:1309
+#: api.py:1309
 msgid "Passed Proctoring"
-msgstr ""
+msgstr "منظور شدہ پروکیکٹنگ"
 
-#: edx_proctoring/api.py:1314 edx_proctoring/api.py:1319
+#: api.py:1314 api.py:1319
 msgid "Failed Proctoring"
-msgstr ""
+msgstr "ناکام پروکیکٹنگ"
 
-#: edx_proctoring/api.py:1324
+#: api.py:1324
 msgid "Proctored Option No Longer Available"
-msgstr ""
+msgstr "پروکیکٹ اختیار ابھی تک دستیاب نہیں ہے"
 
-#: edx_proctoring/api.py:1333
+#: api.py:1333
 msgid "Ungraded Practice Exam"
-msgstr ""
+msgstr "غیر رجسٹرڈ پریکٹس کی امتحان"
 
-#: edx_proctoring/api.py:1338
+#: api.py:1338
 msgid "Practice Exam Completed"
-msgstr ""
+msgstr "امتحان کی تکمیل مکمل"
 
-#: edx_proctoring/api.py:1343
+#: api.py:1343
 msgid "Practice Exam Failed"
-msgstr ""
+msgstr "پریکٹس کی امتحان ناکام ہوگئی"
 
-#: edx_proctoring/api.py:1351
+#: api.py:1351
 msgid "Timed Exam"
-msgstr ""
+msgstr "ٹائم کی جانچ"
 
-#: edx_proctoring/models.py:180
+#: models.py:181
 msgid "pending"
-msgstr ""
+msgstr "زیر التواء"
 
-#: edx_proctoring/models.py:181
+#: models.py:182
 msgid "satisfactory"
-msgstr ""
+msgstr "اطمینان بخش"
 
-#: edx_proctoring/models.py:182
+#: models.py:183
 msgid "unsatisfactory"
-msgstr ""
+msgstr "ناگزیر"
 
-#: edx_proctoring/models.py:484
+#: models.py:481
 msgid "Taking as Proctored"
-msgstr ""
+msgstr "پروکارڈ کے طور پر لے"
 
-#: edx_proctoring/models.py:488
+#: models.py:485
 msgid "Is Sample Attempt"
-msgstr ""
+msgstr "نمونے کی کوشش ہے"
 
-#: edx_proctoring/models.py:709
+#: models.py:700
 msgid "Additional Time (minutes)"
-msgstr ""
+msgstr "اضافی وقت (منٹ)"
 
-#: edx_proctoring/models.py:710
+#: models.py:701
 msgid "Review Policy Exception"
-msgstr ""
+msgstr "جائزہ پالیسی استثنا"
 
-#: edx_proctoring/templates/emails/proctoring_attempt_status_email.html:3
-#, python-format
+#: templates/emails/proctoring_attempt_status_email.html:3
 msgid ""
-"\n"
-"\n"
 "This email is to let you know that the status of your proctoring session review for %(exam_name)s in\n"
 "<a href=\"%(course_url)s\">%(course_name)s </a> is %(status)s. If you have any questions about proctoring,\n"
-"contact %(platform)s support at %(contact_email)s.\n"
-"\n"
+"contact %(platform)s support at %(contact_email)s."
 msgstr ""
+"یہ ای میل آپ کو پتہ ہے میں %(exam_name)s کے لئے اپنے proctoring سیشن کا "
+"جائزہ لینے کی حیثیت ہے کہ اجازت دینا ہے <a "
+"href=\"%(course_url)s\">%(course_name)s</a> %(status)s ہے. اگر آپ کے پاس "
+"پروکیکٹنگ کے بارے میں کوئی سوال ہے تو %(contact_email)s پر %(platform)s کی "
+"حمایت سے رابطہ کریں."
 
-#: edx_proctoring/templates/practice_exam/entrance.html:4
+#: templates/practice_exam/entrance.html:4
+msgid "Try a proctored exam"
+msgstr "ایک متوقع امتحان کی کوشش کریں"
+
+#: templates/practice_exam/entrance.html:9
 msgid ""
-"\n"
-"      Try a proctored exam\n"
-"    "
+"Get familiar with proctoring for real exams later in the course. This practice exam has no impact\n"
+"      on your grade in the course."
 msgstr ""
+"بعد میں کورس میں حقیقی امتحانات کے لئے پروکیکٹنگ سے واقف ہو جاؤ. یہ پریکٹس "
+"امتحان کورس میں آپ کے گریڈ پر کوئی اثر نہیں ہے."
 
-#: edx_proctoring/templates/practice_exam/entrance.html:9
-msgid ""
-"\n"
-"      Get familiar with proctoring for real exams later in the course. This practice exam has no impact\n"
-"      on your grade in the course.\n"
-"    "
-msgstr ""
-
-#: edx_proctoring/templates/practice_exam/entrance.html:15
+#: templates/practice_exam/entrance.html:15
 msgid "Continue to my practice exam"
-msgstr ""
+msgstr "میری آزمائشی امتحان پر جاری رکھیں"
 
-#: edx_proctoring/templates/practice_exam/entrance.html:18
+#: templates/practice_exam/entrance.html:18
 msgid ""
-"\n"
-"        You will be guided through steps to set up online proctoring software and to perform various checks.\n"
-"      "
+"You will be guided through steps to set up online proctoring software and to"
+" perform various checks."
 msgstr ""
+"آپ آن لائن پروکیکنگ سوفٹ ویئر قائم کرنے اور مختلف چیک کرنے کے لئے اقدامات کے"
+" ذریعہ ہدایت کی جائیں گی."
 
-#: edx_proctoring/templates/practice_exam/error.html:4
+#: templates/practice_exam/error.html:4
+msgid "There was a problem with your practice proctoring session"
+msgstr "آپ کے مشق کے پروکیکٹنگ سیشن میں ایک مسئلہ تھا"
+
+#: templates/practice_exam/error.html:10
 msgid ""
-"\n"
-"      There was a problem with your practice proctoring session\n"
-"    "
-msgstr ""
+"Your practice proctoring results: <b class=\"failure\"> Unsatisfactory </b>"
+msgstr "آپ کی پریکٹس کے نتائج کو پروکینگ کرنا: <b class=\"failure\">غیر متفقہ</b>"
 
-#: edx_proctoring/templates/practice_exam/error.html:10
+#: templates/practice_exam/error.html:16
 msgid ""
-"\n"
-"      Your practice proctoring results: <b class=\"failure\"> Unsatisfactory </b>\n"
-"    "
+"Your proctoring session ended before you completed this practice exam.\n"
+"      You can retry this practice exam if you had problems setting up the online proctoring software."
 msgstr ""
+"آپ کا پروکیکشن سیشن ختم ہونے سے پہلے آپ نے یہ عملی امتحان مکمل کیا. آپ اس "
+"پریکٹس کے امتحان کو دوبارہ حاصل کرسکتے ہیں، اگر آپ آن لائن پروکیکٹنگ سافٹ "
+"ویئر کی ترتیبات کو حل کرنے میں مصروف ہیں."
 
-#: edx_proctoring/templates/practice_exam/error.html:16
-msgid ""
-"\n"
-"      Your proctoring session ended before you completed this practice exam.\n"
-"      You can retry this practice exam if you had problems setting up the online proctoring software.\n"
-"    "
-msgstr ""
-
-#: edx_proctoring/templates/practice_exam/error.html:25
+#: templates/practice_exam/error.html:25
 msgid "Try this practice exam again"
-msgstr ""
+msgstr "اس مشق کا امتحان دوبارہ کوشش کریں"
 
-#: edx_proctoring/templates/practice_exam/submitted.html:4
+#: templates/practice_exam/submitted.html:4
+msgid "You have submitted this practice proctored exam"
+msgstr "آپ نے اس عمل کو امتحان پیش کیا ہے"
+
+#: templates/practice_exam/submitted.html:10
 msgid ""
-"\n"
-"      You have submitted this practice proctored exam\n"
-"    "
+"Practice exams do not affect your grade or your credit eligibility.\n"
+"      You have completed this practice exam and can continue with your course work."
 msgstr ""
+"پریکٹس امتحان آپ کے گریڈ یا آپ کے کریڈٹ کی اہلیت کو متاثر نہیں کرتے ہیں. آپ "
+"نے اس مشق کا امتحان مکمل کیا ہے اور آپ کے کورس کے کام کے ساتھ جاری رہ سکتے "
+"ہیں."
 
-#: edx_proctoring/templates/practice_exam/submitted.html:10
-msgid ""
-"\n"
-"      Practice exams do not affect your grade or your credit eligibility.\n"
-"      You have completed this practice exam and can continue with your course work.\n"
-"    "
-msgstr ""
-
-#: edx_proctoring/templates/practice_exam/submitted.html:18
+#: templates/practice_exam/submitted.html:18
 msgid "You can also retry this practice exam"
-msgstr ""
+msgstr "آپ اس پریکٹس امتحان کو بھی دوبارہ حاصل کرسکتے ہیں"
 
-#: edx_proctoring/templates/proctored_exam/confirm-decline.html:5
+#: templates/proctored_exam/confirm-decline.html:5
+msgid "Are you sure you want to take this exam without proctoring?"
+msgstr "کیا آپ واقعی یہ آزمائشی کے بغیر پروکیکٹنگ کرنا چاہتے ہیں؟"
+
+#: templates/proctored_exam/confirm-decline.html:10
 msgid ""
-"\n"
-"        Are you sure you want to take this exam without proctoring?\n"
-"      "
+"If you take this exam without proctoring, you will <strong> no longer be "
+"eligible for academic credit. </strong>"
 msgstr ""
+"اگر آپ اس امتحان کے بغیر پروکیکنگ کے بغیر لے جائیں گے، تو آپ <strong>اب "
+"تعلیمی کریڈٹ کے اہل نہیں ہوں گے.</strong>"
 
-#: edx_proctoring/templates/proctored_exam/confirm-decline.html:10
-msgid ""
-"\n"
-"        If you take this exam without proctoring, you will <strong> no longer be eligible for academic credit. </strong>\n"
-"      "
-msgstr ""
-
-#: edx_proctoring/templates/proctored_exam/confirm-decline.html:16
+#: templates/proctored_exam/confirm-decline.html:16
 msgid "Continue Exam Without Proctoring"
-msgstr ""
+msgstr "پرویکٹرنگ کے بغیر امتحان جاری رکھیں"
 
-#: edx_proctoring/templates/proctored_exam/confirm-decline.html:19
+#: templates/proctored_exam/confirm-decline.html:19
 msgid "Go Back"
-msgstr ""
+msgstr "واپس جاو"
 
-#: edx_proctoring/templates/proctored_exam/entrance.html:4
-#: edx_proctoring/templates/proctored_exam/failed-prerequisites.html:4
-#: edx_proctoring/templates/proctored_exam/pending-prerequisites.html:4
+#: templates/proctored_exam/entrance.html:4
+#: templates/proctored_exam/failed-prerequisites.html:4
+#: templates/proctored_exam/pending-prerequisites.html:4
+msgid "This exam is proctored"
+msgstr "یہ امتحان پیش کیا جاتا ہے"
+
+#: templates/proctored_exam/entrance.html:9
 msgid ""
-"\n"
-"      This exam is proctored\n"
-"    "
+"To be eligible for course credit or for a MicroMasters credential, you must "
+"pass the proctoring review for this exam."
 msgstr ""
+"کورس کریڈٹ کے لئے یا مائیکرو میسٹروں کے اعتبار سے اہل ہونے کے لئے، آپ کو اس "
+"امتحان کے لئے پروکیکنگ کا جائزہ لینے کے لۓ پاس کرنا ہوگا."
 
-#: edx_proctoring/templates/proctored_exam/entrance.html:9
-msgid ""
-"\n"
-"      To be eligible to earn credit for this course, you must take and pass the proctoring review for this exam.\n"
-"    "
-msgstr ""
-
-#: edx_proctoring/templates/proctored_exam/entrance.html:14
+#: templates/proctored_exam/entrance.html:14
 msgid "Continue to my proctored exam. I want to be eligible for credit."
-msgstr ""
+msgstr "میری پرکشش جانچ پڑتال جاری رکھیں. میں کریڈٹ کے اہل ہوں."
 
-#: edx_proctoring/templates/proctored_exam/entrance.html:17
+#: templates/proctored_exam/entrance.html:17
 msgid ""
-"\n"
-"        You will be guided through steps to set up online proctoring software and to perform various checks.</br>\n"
-"      "
+"You will be guided through steps to set up online proctoring software and to"
+" perform various checks.</br>"
 msgstr ""
+"آپ آن لائن پروکیکنگ سوفٹ ویئر قائم کرنے اور مختلف چیک کرنے کے لئے اقدامات کے"
+" ذریعہ ہدایت کی جائیں گی. </br>"
 
-#: edx_proctoring/templates/proctored_exam/error.html:4
-msgid ""
-"\n"
-"      Error with proctored exam\n"
-"    "
-msgstr ""
+#: templates/proctored_exam/error.html:4
+msgid "Error with proctored exam"
+msgstr "تشخیصی امتحان کے ساتھ خرابی"
 
-#: edx_proctoring/templates/proctored_exam/error.html:10
-#, python-format
+#: templates/proctored_exam/error.html:10
 msgid ""
-"\n"
-"      A technical error has occurred with your proctored exam. To resolve this problem, contact\n"
+"A technical error has occurred with your proctored exam. To resolve this problem, contact\n"
 "      <a href=\"mailto:%(tech_support_email)s\">technical support</a>. All exam data, including answers\n"
 "      for completed problems, has been lost. When the problem is resolved you will need to restart\n"
-"      the exam and complete all problems again.\n"
-"    "
+"      the exam and complete all problems again."
 msgstr ""
+"آپ کے پروکرمی امتحان کے ساتھ ایک تکنیکی غلطی ہوئی ہے. اس مسئلہ کو حل کرنے کے"
+" لئے <a href=\"mailto:%(tech_support_email)s\">تکنیکی مدد</a> سے رابطہ کریں."
+" تمام امتحان کے اعداد و شمار، بشمول مکمل مسائل کے جوابات سمیت، کھو گیا ہے. "
+"جب مسئلہ حل ہوجاتا ہے تو آپ کو امتحان کو دوبارہ شروع کرنے اور تمام مسائل کو "
+"مکمل کرنے کی ضرورت ہوگی."
 
-#: edx_proctoring/templates/proctored_exam/error.html:19
-#: edx_proctoring/templates/proctored_exam/expired.html:15
-#: edx_proctoring/templates/proctored_exam/rejected.html:19
-#: edx_proctoring/templates/proctored_exam/submitted.html:29
-#: edx_proctoring/templates/proctored_exam/verified.html:18
-#, python-format
+#: templates/proctored_exam/error.html:19
+#: templates/proctored_exam/expired.html:15
+#: templates/proctored_exam/rejected.html:19
+#: templates/proctored_exam/submitted.html:29
+#: templates/proctored_exam/verified.html:18
 msgid ""
-"\n"
-"      View your credit eligibility status on your <a href=\"%(progress_page_url)s\">Progress</a> page.\n"
-"    "
+"View your credit eligibility status on your <a "
+"href=\"%(progress_page_url)s\">Progress</a> page."
 msgstr ""
+"اپنے <a href=\"%(progress_page_url)s\">پیش رفت کے</a> صفحے پر اپنے کریڈٹ کی "
+"اہلیت کی حیثیت دیکھیں."
 
-#: edx_proctoring/templates/proctored_exam/error.html:26
-#: edx_proctoring/templates/proctored_exam/rejected.html:26
+#: templates/proctored_exam/error.html:26
+#: templates/proctored_exam/rejected.html:26
 msgid ""
-"\n"
-"      If you have concerns about your proctoring session results, contact your course team.\n"
-"    "
+"If you have concerns about your proctoring session results, contact your "
+"course team."
 msgstr ""
+"اگر آپ کے بارے میں تشویش ہے آپ کے پروکیکشن سیشن کے نتائج، اپنے کورس کی ٹیم "
+"سے رابطہ کریں."
 
-#: edx_proctoring/templates/proctored_exam/expired.html:4
-#: edx_proctoring/templates/timed_exam/expired.html:4
+#: templates/proctored_exam/expired.html:4 templates/timed_exam/expired.html:4
+msgid "The due date for this exam has passed"
+msgstr "اس امتحان کے لئے تاریخ کی تاریخ منظور ہو گئی ہے"
+
+#: templates/proctored_exam/expired.html:9 templates/timed_exam/expired.html:9
 msgid ""
-"\n"
-"      The due date for this exam has passed\n"
-"    "
+"Because the due date has passed, you are no longer able to take this exam."
 msgstr ""
+"کیونکہ تاریخ کی تاریخ منظور ہو چکی ہے، آپ اب اس امتحان لینے کے قابل نہیں "
+"ہیں."
 
-#: edx_proctoring/templates/proctored_exam/expired.html:9
-#: edx_proctoring/templates/timed_exam/expired.html:9
+#: templates/proctored_exam/failed-prerequisites.html:9
 msgid ""
-"\n"
-"      Because the due date has passed, you are no longer able to take this exam.\n"
-"    "
+"You did not satisfy the requirements for taking this exam with proctoring, "
+"and are not eligible for credit. See your <a "
+"href=\"%(progress_page_url)s\">Progress</a> page for a list of requirements "
+"and your status for each."
 msgstr ""
+"آپ نے اس امتحان کو پروکیکٹنگ لینے کے لۓ پورا نہیں کیا، اور کریڈٹ کے اہل نہیں"
+" ہیں. اپنے <a href=\"%(progress_page_url)s\">پیش رفت کے</a> صفحے کی ضروریات "
+"کی فہرست اور ہر ایک کے لئے آپ کی حیثیت کے لئے ملاحظہ کریں."
 
-#: edx_proctoring/templates/proctored_exam/failed-prerequisites.html:9
-#, python-format
+#: templates/proctored_exam/failed-prerequisites.html:14
+msgid "You did not satisfy the following prerequisites:"
+msgstr "آپ مندرجہ ذیل ضروریات کو پورا نہیں کرتے تھے:"
+
+#: templates/proctored_exam/failed-prerequisites.html:32
 msgid ""
-"\n"
-"    You did not satisfy the requirements for taking this exam with proctoring, and are not eligible for credit. See your <a href=\"%(progress_page_url)s\">Progress</a> page for a list of requirements and your status for each.\n"
-"    "
+"Due to unsatisfied prerequisites, you can only take this exam without "
+"proctoring."
 msgstr ""
+"ناپسندیدہ شرطوں کی وجہ سے، آپ صرف اس امتحان کے بغیر پروکیکٹنگ لے سکتے ہیں."
 
-#: edx_proctoring/templates/proctored_exam/failed-prerequisites.html:14
+#: templates/proctored_exam/failed-prerequisites.html:40
 msgid ""
-"\n"
-"    You did not satisfy the following prerequisites:\n"
-"    "
+"If you have questions about the status of your requirements for course "
+"credit, contact %(platform_name)s Support."
 msgstr ""
+"اگر آپ کے پاس کریڈٹ کریڈٹ کے لئے اپنی ضروریات کی حیثیت کے بارے میں سوالات "
+"ہیں تو، %(platform_name)s سپورٹ سے رابطہ کریں."
 
-#: edx_proctoring/templates/proctored_exam/failed-prerequisites.html:32
+#: templates/proctored_exam/footer.html:5
+msgid "About Proctored Exams"
+msgstr "پروکارڈ امتحان کے بارے میں"
+
+#: templates/proctored_exam/id_verification.html:6
+msgid "Complete your verification before starting the proctored exam."
+msgstr "تجزیہ کردہ امتحان شروع کرنے سے پہلے اپنی توثیق مکمل کریں."
+
+#: templates/proctored_exam/id_verification.html:11
 msgid ""
-"\n"
-"        Due to unsatisfied prerequisites, you can only take this exam without proctoring.\n"
-"      "
+"You must successfully complete identity verification before you can start "
+"the proctored exam."
 msgstr ""
+"اس سے پہلے کہ آپ پروکارڈ امتحان شروع کر سکیں اس سے پہلے آپ کو شناخت کی توثیق"
+" مکمل کرنی چاہیے."
 
-#: edx_proctoring/templates/proctored_exam/failed-prerequisites.html:40
-#, python-format
+#: templates/proctored_exam/id_verification.html:17
 msgid ""
-"\n"
-"      If you have questions about the status of your requirements for course credit, contact %(platform_name)s Support.\n"
-"    "
+"Your verification is pending. Results should be available 2-3 days after you\n"
+"                    submit your verification."
 msgstr ""
+"آپ کی توثیق زیر التواء ہے. آپ کی توثیق جمع کرنے کے بعد نتائج 2-3 دن دستیاب "
+"ہونا چاہئے."
 
-#: edx_proctoring/templates/proctored_exam/footer.html:5
+#: templates/proctored_exam/id_verification.html:24
 msgid ""
-"\n"
-"        About Proctored Exams\n"
-"        "
-msgstr ""
-
-#: edx_proctoring/templates/proctored_exam/id_verification.html:6
-msgid ""
-"\n"
-"                Complete your verification before starting the proctored exam.\n"
-"            "
-msgstr ""
-
-#: edx_proctoring/templates/proctored_exam/id_verification.html:11
-msgid ""
-"\n"
-"                You must successfully complete identity verification before you can start the proctored exam.\n"
-"            "
-msgstr ""
-
-#: edx_proctoring/templates/proctored_exam/id_verification.html:17
-msgid ""
-"\n"
-"                    Your verification is pending. Results should be available 2-3 days after you\n"
-"                    submit your verification.\n"
-"                "
-msgstr ""
-
-#: edx_proctoring/templates/proctored_exam/id_verification.html:24
-msgid ""
-"\n"
-"                    Your verification attempt failed. Please read our guidelines to make\n"
+"Your verification attempt failed. Please read our guidelines to make\n"
 "                    sure you understand the requirements for successfully completing verification,\n"
-"                    then try again.\n"
-"                "
+"                    then try again."
 msgstr ""
+"آپ کی توثیق کی کوشش ناکام ہوگئی. اس بات کا یقین کرنے کے لئے کہ آپ کو کامیابی"
+" سے توثیق مکمل کرنے کے لئے ضروریات کو سمجھنے کے لۓ اپنے ہدایات کو پڑھیں، پھر"
+" دوبارہ کوشش کریں."
 
-#: edx_proctoring/templates/proctored_exam/id_verification.html:32
+#: templates/proctored_exam/id_verification.html:32
 msgid "Retry Verification"
-msgstr ""
+msgstr "تصدیق دوبارہ کریں"
 
-#: edx_proctoring/templates/proctored_exam/id_verification.html:37
+#: templates/proctored_exam/id_verification.html:37
 msgid ""
-"\n"
-"                    Your verification has expired. You must successfully complete a new identity verification\n"
-"                    before you can start the proctored exam.\n"
-"                "
+"Your verification has expired. You must successfully complete a new identity verification\n"
+"                    before you can start the proctored exam."
 msgstr ""
+"آپ کی توثیق ختم ہوگئی ہے. اس سے پہلے کہ آپ پروکارڈ امتحان شروع کر سکیں اس سے"
+" پہلے آپ کو ایک نئی شناخت کی توثیق مکمل کرنا ضروری ہے."
 
-#: edx_proctoring/templates/proctored_exam/id_verification.html:44
-#: edx_proctoring/templates/proctored_exam/id_verification.html:56
+#: templates/proctored_exam/id_verification.html:44
+#: templates/proctored_exam/id_verification.html:56
 msgid "Continue to Verification"
-msgstr ""
+msgstr "توثیق جاری رکھیں"
 
-#: edx_proctoring/templates/proctored_exam/id_verification.html:49
+#: templates/proctored_exam/id_verification.html:49
 msgid ""
-"\n"
-"                    Make sure you are on a computer with a webcam, and that you have valid photo identification\n"
-"                    such as a driver's license or passport, before you continue.\n"
-"                "
+"Make sure you are on a computer with a webcam, and that you have valid photo identification\n"
+"                    such as a driver's license or passport, before you continue."
 msgstr ""
+"اس بات کو یقینی بنائیں کہ آپ ویب کیم کے ساتھ کمپیوٹر پر ہیں، اور آپ کے پاس "
+"جاری رکھنے سے پہلے آپ کے پاس درست تصویر کی شناخت جیسے ڈرائیور ایس 1 لائسنس "
+"یا پاسپورٹ ہے."
 
-#: edx_proctoring/templates/proctored_exam/instructions.html:6
+#: templates/proctored_exam/instructions.html:6
+msgid "Follow these steps to set up and start your proctored exam."
+msgstr ""
+"قائم کرنے اور اپنے پروکرمی امتحان شروع کرنے کے لئے ان اقدامات پر عمل کریں."
+
+#: templates/proctored_exam/instructions.html:11
 msgid ""
-"\n"
-"      Follow these steps to set up and start your proctored exam.\n"
-"    "
+"1. Copy this unique exam code. You will be prompted to paste this code later"
+" before you start the exam."
 msgstr ""
+"1. اس منفرد امتحان کا کوڈ کاپی کریں. آپ کو اس کوڈ کو پیسٹ کرنے کے بعد آپ کو "
+"امتحان شروع کرنے سے پہلے پیسہ دیا جائے گا."
 
-#: edx_proctoring/templates/proctored_exam/instructions.html:11
+#: templates/proctored_exam/instructions.html:19
 msgid ""
-"\n"
-"        1. Copy this unique exam code. You will be prompted to paste this code later before you start the exam.\n"
-"      "
+"Select the exam code, then copy it using Command+C (Mac) or Control+C "
+"(Windows)."
 msgstr ""
+"امتحان کوڈ منتخب کریں، پھر کمانڈ + سی (میک) یا کنٹرول + سی (ونڈوز) کا "
+"استعمال کرتے ہوئے کاپی کریں."
 
-#: edx_proctoring/templates/proctored_exam/instructions.html:19
-msgid ""
-"\n"
-"        Select the exam code, then copy it using Command+C (Mac) or Control+C (Windows).\n"
-"      "
-msgstr ""
+#: templates/proctored_exam/instructions.html:24
+msgid "2. Follow the link below to set up proctoring."
+msgstr "2. پروکیکٹنگ قائم کرنے کے لئے نیچے دیئے گئے لنک پر عمل کریں."
 
-#: edx_proctoring/templates/proctored_exam/instructions.html:24
-msgid ""
-"\n"
-"        2. Follow the link below to set up proctoring.\n"
-"      "
-msgstr ""
-
-#: edx_proctoring/templates/proctored_exam/instructions.html:29
+#: templates/proctored_exam/instructions.html:29
 msgid "Start System Check"
-msgstr ""
+msgstr "سسٹم چیک شروع کریں"
 
-#: edx_proctoring/templates/proctored_exam/instructions.html:32
+#: templates/proctored_exam/instructions.html:32
 msgid ""
-"\n"
-"        A new window will open. You will run a system check before downloading the proctoring application.\n"
-"      "
+"A new window will open. You will run a system check before downloading the "
+"proctoring application."
 msgstr ""
+"ایک نئی ونڈو کھل جائے گی. آپ کو پروکیکٹنگ ایپلیکیشن ڈاؤن لوڈ کرنے سے پہلے "
+"ایک سسٹم چیک چیک کریں گے."
 
-#: edx_proctoring/templates/proctored_exam/instructions.html:37
+#: templates/proctored_exam/instructions.html:37
 msgid ""
-"\n"
-"        You will be asked to verify your identity as part of the proctoring exam set up.\n"
+"You will be asked to verify your identity as part of the proctoring exam set up.\n"
 "        Make sure you are on a computer with a webcam, and that you have valid photo identification\n"
-"        such as a driver's license or passport, before you continue.\n"
-"      "
+"        such as a driver's license or passport, before you continue."
 msgstr ""
+"آپ کو اپنی شناخت کی توثیق کرنے کے لئے کہا جائے گا کہ آپ پروکیکنگ امتحان کے "
+"حصے کے طور پر مقرر کریں. اس بات کو یقینی بنائیں کہ آپ ویب کیم کے ساتھ "
+"کمپیوٹر پر ہیں، اور آپ کے پاس جاری رکھنے سے پہلے آپ کے پاس درست تصویر کی "
+"شناخت جیسے ڈرائیور ایس 1 لائسنس یا پاسپورٹ ہے."
 
-#: edx_proctoring/templates/proctored_exam/instructions.html:44
-msgid ""
-"\n"
-"          3. When you have finished setting up proctoring, start the exam.\n"
-"        "
-msgstr ""
+#: templates/proctored_exam/instructions.html:44
+msgid "3. When you have finished setting up proctoring, start the exam."
+msgstr "3. جب آپ پروکیکٹنگ کی ترتیب کو ختم کر چکے ہیں، تو امتحان شروع کریں."
 
-#: edx_proctoring/templates/proctored_exam/instructions.html:50
+#: templates/proctored_exam/instructions.html:50
 msgid "Start Proctored Exam"
-msgstr ""
+msgstr "پروکارڈ امتحان شروع کریں"
 
-#: edx_proctoring/templates/proctored_exam/instructions.html:60
+#: templates/proctored_exam/instructions.html:60
 msgid "Close"
 msgstr "بند کریں"
 
-#: edx_proctoring/templates/proctored_exam/instructions.html:65
+#: templates/proctored_exam/instructions.html:65
 msgid "Cannot Start Proctored Exam"
-msgstr ""
+msgstr "پروکارڈ امتحان شروع نہیں کر سکتے ہیں"
 
-#: edx_proctoring/templates/proctored_exam/instructions.html:85
-#: edx_proctoring/templates/proctored_exam/proctoring_opt_out_button.html:5
+#: templates/proctored_exam/instructions.html:85
+#: templates/proctored_exam/proctoring_opt_out_button.html:5
 msgid "Take this exam without proctoring."
-msgstr ""
+msgstr "بغیر امتحان کے بغیر یہ امتحان لیں."
 
-#: edx_proctoring/templates/proctored_exam/instructions.html:87
+#: templates/proctored_exam/instructions.html:87
 msgid "Doing so means that you are no longer eligible for academic credit."
-msgstr ""
+msgstr "اس کا مطلب یہ ہے کہ آپ اب تعلیمی کریڈٹ کے اہل نہیں ہیں."
 
-#: edx_proctoring/templates/proctored_exam/pending-prerequisites.html:9
-#, python-format
+#: templates/proctored_exam/pending-prerequisites.html:9
 msgid ""
-"\n"
-"    You have not completed the prerequisites for this exam. All requirements must be satisfied before you can take this proctored exam and be eligible for credit. See your <a href=\"%(progress_page_url)s\">Progress</a> page for a list of requirements in the order that they must be completed.\n"
-"    "
+"You have not completed the prerequisites for this exam. All requirements "
+"must be satisfied before you can take this proctored exam and be eligible "
+"for credit. See your <a href=\"%(progress_page_url)s\">Progress</a> page for"
+" a list of requirements in the order that they must be completed."
 msgstr ""
+"آپ نے اس امتحان کے لئے ضروریات مکمل نہیں کی ہیں. آپ اس پروکرمی امتحان لے "
+"سکتے ہیں اور کریڈٹ کے اہل ہونے سے قبل تمام ضروریات کو مطمئن ہونا ضروری ہے. "
+"آپ کے <a href=\"%(progress_page_url)s\">پیش رفت کے</a> صفحے کی ضروریات کی "
+"فہرست کے لۓ دیکھیں تاکہ انہیں مکمل کرنا ضروری ہے."
 
-#: edx_proctoring/templates/proctored_exam/pending-prerequisites.html:14
+#: templates/proctored_exam/pending-prerequisites.html:14
 msgid ""
-"\n"
-"    The following prerequisites are in a <strong>pending</strong> state and must be successfully completed before you can proceed:\n"
-"    "
+"The following prerequisites are in a <strong>pending</strong> state and must"
+" be successfully completed before you can proceed:"
 msgstr ""
+"مندرجہ ذیل شرطیں <strong>زیر التواء</strong> ریاست میں ہیں اور آپ آگے بڑھ "
+"سکتے ہیں اس سے پہلے کامیابی سے مکمل ہونا ضروری ہے:"
 
-#: edx_proctoring/templates/proctored_exam/pending-prerequisites.html:30
-#, python-format
+#: templates/proctored_exam/pending-prerequisites.html:30
 msgid ""
-"\n"
-"    You can take this exam with proctoring only when all prerequisites have been successfully completed. Check your <a href=\"%(progress_page_url)s\">Progress</a>  page to see if prerequisite results have been updated. You can also take this exam now without proctoring, but you will not be eligible for credit.\n"
-"    "
+"You can take this exam with proctoring only when all prerequisites have been"
+" successfully completed. Check your <a "
+"href=\"%(progress_page_url)s\">Progress</a>  page to see if prerequisite "
+"results have been updated. You can also take this exam now without "
+"proctoring, but you will not be eligible for credit."
 msgstr ""
+"آپ یہ امتحان لے سکتے ہیں کہ صرف پروکیکٹنگ کے ساتھ ہی صرف جب سب ضروریات مکمل "
+"طور پر مکمل ہوئیں. اپنے <a href=\"%(progress_page_url)s\">پیش رفت کے</a> "
+"صفحے کی جانچ پڑتال کرنے کے لئے چیک کریں کہ لازمی نتائج کو اپ ڈیٹ کیا گیا ہے."
+" آپ اب بھی اس امتحان کے بغیر پروکیکونگ لے سکتے ہیں، لیکن آپ کریڈٹ کے اہل "
+"نہیں ہوں گے."
 
-#: edx_proctoring/templates/proctored_exam/proctoring_launch_callback.html:164
-msgid " Your Proctoring Session Has Started "
-msgstr ""
+#: templates/proctored_exam/proctoring_launch_callback.html:164
+msgid "Your Proctoring Session Has Started"
+msgstr "آپ کا پروکیکٹنگ اجلاس شروع ہوگیا ہے"
 
-#: edx_proctoring/templates/proctored_exam/proctoring_launch_callback.html:165
-#, python-format
+#: templates/proctored_exam/proctoring_launch_callback.html:165
 msgid ""
-" From this point in time, you must follow the <a "
+"From this point in time, you must follow the <a "
 "href=\"%(link_urls.online_proctoring_rules)s\" target=\"_blank\">online "
-"proctoring rules</a> to pass the proctoring review for your exam. "
+"proctoring rules</a> to pass the proctoring review for your exam."
 msgstr ""
+"اس وقت سے، آپ کو اپنے امتحان کے لئے پروکیکنگ کا جائزہ لینے کے لۓ <a "
+"href=\"%(link_urls.online_proctoring_rules)s\" target=\"_blank\">آن لائن "
+"پروکیکٹنگ قوانین</a> کو عمل کرنا ضروری ہے."
 
-#: edx_proctoring/templates/proctored_exam/proctoring_launch_callback.html:168
+#: templates/proctored_exam/proctoring_launch_callback.html:168
 msgid ""
-"\n"
-"            Do not close this window before you finish your exam. if you close this window, your proctoring session ends, and you will not successfully complete the proctored exam.\n"
-"          "
+"Do not close this window before you finish your exam. if you close this "
+"window, your proctoring session ends, and you will not successfully complete"
+" the proctored exam."
 msgstr ""
+"آپ اپنی امتحان کو ختم کرنے سے پہلے یہ ونڈو بند نہ کریں. اگر آپ اس ونڈو کو "
+"بند کرتے ہیں تو، آپ کے پروکیکشن سیشن ختم ہوجاتا ہے، اور آپ کو پروجیکٹ شدہ "
+"امتحان مکمل طور پر مکمل نہیں کریں گے."
 
-#: edx_proctoring/templates/proctored_exam/proctoring_launch_callback.html:173
-#, python-format
+#: templates/proctored_exam/proctoring_launch_callback.html:173
 msgid ""
-"\n"
-"            Return to the %(platform_name)s course window to start your exam. When you have finished your exam and\n"
+"Return to the %(platform_name)s course window to start your exam. When you have finished your exam and\n"
 "            have marked it as complete, you can close this window to end the proctoring session\n"
-"            and upload your proctoring session data for review.\n"
-"          "
+"            and upload your proctoring session data for review."
 msgstr ""
+"اپنی امتحان شروع کرنے کے لئے %(platform_name)s کورس ونڈو میں واپس جائیں. جب "
+"آپ نے اپنی امتحان کو مکمل کر لیا اور اسے مکمل طور پر نشان لگا دیا ہے تو، آپ "
+"کو پروکیکٹنگ سیشن کو ختم کرنے کے لئے اس ونڈو کو بند کر سکتے ہیں اور جائزہ "
+"لینے کے لئے اپنے پروکیکنگ سیشن ڈیٹا اپ لوڈ کرسکتے ہیں."
 
-#: edx_proctoring/templates/proctored_exam/proctoring_opt_out_button.html:8
-msgid ""
-"\n"
-"        I am not interested in academic credit.\n"
-"      "
-msgstr ""
+#: templates/proctored_exam/proctoring_opt_out_button.html:8
+msgid "I am not interested in academic credit."
+msgstr "مجھے تعلیمی کریڈٹ میں دلچسپی نہیں ہے."
 
-#: edx_proctoring/templates/proctored_exam/ready_to_start.html:5
-msgid ""
-"\n"
-"      Follow these instructions\n"
-"    "
-msgstr ""
+#: templates/proctored_exam/ready_to_start.html:5
+msgid "Follow these instructions"
+msgstr "ان ہدایات پر عمل کریں"
 
-#: edx_proctoring/templates/proctored_exam/ready_to_start.html:10
-#, python-format
+#: templates/proctored_exam/ready_to_start.html:10
 msgid ""
-"\n"
-"        &#8226; When you start your exam you will have %(total_time)s to complete it. </br>\n"
+"&#8226; When you start your exam you will have %(total_time)s to complete it. </br>\n"
 "        &#8226; You cannot stop the timer once you start. </br>\n"
 "        &#8226; If time expires before you finish your exam, your completed answers will be\n"
-"                submitted for review. </br>\n"
-"      "
+"                submitted for review. </br>"
 msgstr ""
+"&amp; #8226؛ جب آپ اپنی امتحان شروع کرتے ہیں تو آپ اسے مکمل کرنے کے لئے "
+"%(total_time)s پڑے گا. </br> &amp; #8226؛ آپ ٹائمر کو ایک بار شروع نہیں کر "
+"سکتے ہیں. </br> &amp; #8226؛ اگر آپ اپنی امتحان ختم کرنے سے قبل وقت ختم "
+"ہوجاتا ہے، تو آپ کے مکمل جوابات جائزہ لینے کے لئے جمع کیے جائیں گے. </br>"
 
-#: edx_proctoring/templates/proctored_exam/ready_to_start.html:19
+#: templates/proctored_exam/ready_to_start.html:19
+msgid "Start my exam"
+msgstr "میری امتحان شروع کرو"
+
+#: templates/proctored_exam/ready_to_submit.html:4
+msgid "Are you sure you want to end your proctored exam?"
+msgstr "کیا آپ واقعی اپنے پروکرمی امتحان ختم کرنا چاہتے ہیں؟"
+
+#: templates/proctored_exam/ready_to_submit.html:9
+#: templates/timed_exam/ready_to_submit.html:9
 msgid ""
-"\n"
-"          Start my exam\n"
-"        "
+"Make sure that you have selected \"Submit\" for each problem before you "
+"submit your exam."
 msgstr ""
+"اس بات کو یقینی بنائیں کہ آپ اپنی امتحان جمع کرنے سے قبل ہر مسئلے کے لئے "
+"\"Submit\" کا انتخاب کیا ہے."
 
-#: edx_proctoring/templates/proctored_exam/ready_to_submit.html:4
+#: templates/proctored_exam/ready_to_submit.html:14
 msgid ""
-"\n"
-"      Are you sure you want to end your proctored exam?\n"
-"    "
-msgstr ""
-
-#: edx_proctoring/templates/proctored_exam/ready_to_submit.html:9
-#: edx_proctoring/templates/timed_exam/ready_to_submit.html:9
-msgid ""
-"\n"
-"      Make sure that you have selected \"Submit\" for each problem before you submit your exam.\n"
-"    "
-msgstr ""
-
-#: edx_proctoring/templates/proctored_exam/ready_to_submit.html:14
-msgid ""
-"\n"
-"      After you submit your exam, your responses are graded and your proctoring session is reviewed.\n"
+"After you submit your exam, your responses are graded and your proctoring session is reviewed.\n"
 "      You might be eligible to earn academic credit for this course if you complete all required exams\n"
-"      as well as achieve a final grade that meets credit requirements for the course.\n"
-"    "
+"      as well as achieve a final grade that meets credit requirements for the course."
 msgstr ""
+"آپ اپنی امتحان جمع کرنے کے بعد، آپ کے جوابات درجہ بندی کیے جاتے ہیں اور آپ "
+"کے پروکیکشن کا جائزہ لیا جاتا ہے. آپ اس کورس کے لئے تعلیمی کریڈٹ حاصل کرنے "
+"کے اہل ہوسکتے ہیں اگر آپ لازمی امتحان مکمل کریں اور حتمی گریڈ حاصل کریں جو "
+"کورس کے لئے کریڈٹ کی ضروریات کو پورا کریں."
 
-#: edx_proctoring/templates/proctored_exam/ready_to_submit.html:21
+#: templates/proctored_exam/ready_to_submit.html:21
+msgid "Yes, end my proctored exam"
+msgstr "جی ہاں، میری پروکرمی امتحان ختم"
+
+#: templates/proctored_exam/ready_to_submit.html:27
+msgid "No, I'd like to continue working"
+msgstr "نہیں، I'D کام جاری رکھنے کی طرح"
+
+#: templates/proctored_exam/rejected.html:4
+msgid "Your proctoring session was reviewed and did not pass requirements"
+msgstr ""
+"آپ کے پروکیکٹنگ سیشن کا جائزہ لیا گیا اور ضروریات کو منظور نہیں کیا گیا"
+
+#: templates/proctored_exam/rejected.html:10
 msgid ""
-"\n"
-"      Yes, end my proctored exam\n"
-"    "
+"You are no longer eligible for academic credit for this course, regardless of your final grade.\n"
+"      If you have questions about the status of your proctored exam results, contact %(platform_name)s Support."
 msgstr ""
+"آپ کو اس کورس کے لئے علمی کریڈٹ کے لۓ مزید مستحق نہیں ہیں، قطع نظر آپ کے "
+"آخری گریڈ کے. اگر آپ کے سوالات کے بارے میں سوالات کے بارے میں سوالات ہیں تو،"
+" %(platform_name)s سپورٹ سے رابطہ کریں."
 
-#: edx_proctoring/templates/proctored_exam/ready_to_submit.html:27
+#: templates/proctored_exam/submitted.html:4
+msgid "You have submitted this proctored exam for review"
+msgstr "آپ نے اس تجویز کردہ امتحان کا جائزہ لیا ہے"
+
+#: templates/proctored_exam/submitted.html:9
 msgid ""
-"\n"
-"        No, I'd like to continue working\n"
-"      "
+"If the proctoring software window is still open, you can close it now. "
+"Confirm that you want to quit the application when you are prompted."
 msgstr ""
+"اگر پروکیکنگ سوفٹ ویئر ونڈو ابھی بھی کھلا ہے تو، آپ اب اسے بند کر سکتے ہیں. "
+"اس بات کی توثیق کریں کہ آپ ایپلی کیشنز کو چھوڑنے کے بعد چھوڑنا چاہتے ہیں."
 
-#: edx_proctoring/templates/proctored_exam/rejected.html:4
+#: templates/proctored_exam/submitted.html:14
 msgid ""
-"\n"
-"      Your proctoring session was reviewed and did not pass requirements\n"
-"    "
+"&#8226; After you quit the proctoring session, the recorded data is uploaded for review. </br>\n"
+"      &#8226; Proctoring results are usually available within 5 business days after you submit your exam."
 msgstr ""
+"&amp; #8226؛ پروکیکٹنگ سیشن چھوڑنے کے بعد، ریکارڈ کردہ ڈیٹا جائزے کے لئے اپ "
+"لوڈ کیا جاتا ہے. </br> &amp; #8226؛ آپ کے امتحان جمع کرنے کے بعد پرویکٹرنگ "
+"کے نتائج عام طور پر 5 کاروباری دنوں کے اندر اندر دستیاب ہیں."
 
-#: edx_proctoring/templates/proctored_exam/rejected.html:10
-#, python-format
+#: templates/proctored_exam/submitted.html:23
 msgid ""
-"\n"
-"      You are no longer eligible for academic credit for this course, regardless of your final grade.\n"
-"      If you have questions about the status of your proctored exam results, contact %(platform_name)s Support.\n"
-"    "
+"If you have questions about the status of your proctored exam results, "
+"contact %(platform_name)s Support."
 msgstr ""
+"اگر آپ کے سوالات کے بارے میں سوالات کے بارے میں سوالات ہیں تو، "
+"%(platform_name)s سپورٹ سے رابطہ کریں."
 
-#: edx_proctoring/templates/proctored_exam/submitted.html:4
+#: templates/proctored_exam/verified.html:4
+msgid "Your proctoring session was reviewed and passed all requirements"
+msgstr ""
+"آپ کے پروکیکٹنگ سیشن کا جائزہ لیا اور تمام ضروریات کو منظور کیا گیا تھا"
+
+#: templates/proctored_exam/verified.html:10
 msgid ""
-"\n"
-"      You have submitted this proctored exam for review\n"
-"    "
+"You are eligible to purchase academic credit for this course if you complete all required exams\n"
+"      and also achieve a final grade that meets the credit requirements for the course."
 msgstr ""
+"آپ اس کورس کے لئے تعلیمی کریڈٹ خریدنے کے اہل ہیں اگر آپ لازمی امتحان مکمل "
+"کریں اور حتمی گریڈ بھی حاصل کریں جو کورس کے لئے کریڈٹ کی ضروریات کو پورا "
+"کریں."
 
-#: edx_proctoring/templates/proctored_exam/submitted.html:9
+#: templates/proctored_exam/visit_exam_content.html:5
 msgid ""
-"\n"
-"      If the proctoring software window is still open, you can close it now. Confirm that you want to quit the application when you are prompted.\n"
-"    "
+"To view your exam questions and responses, select <strong>View my "
+"exam</strong>. The exam's review status is shown in the left navigation "
+"pane."
 msgstr ""
+"اپنے امتحان کے سوالات اور جوابات دیکھنے کے لئے، <strong>میری امتحان "
+"دیکھیں</strong> . بائیں نیویگیشن پین میں امتحان کی حیثیت کا جائزہ لینے کا "
+"مقام دکھایا گیا ہے."
 
-#: edx_proctoring/templates/proctored_exam/submitted.html:14
-msgid ""
-"\n"
-"      &#8226; After you quit the proctoring session, the recorded data is uploaded for review. </br>\n"
-"      &#8226; Proctoring results are usually available within 5 business days after you submit your exam.\n"
-"    "
-msgstr ""
-
-#: edx_proctoring/templates/proctored_exam/submitted.html:23
-#, python-format
-msgid ""
-"\n"
-"      If you have questions about the status of your proctored exam results, contact %(platform_name)s Support.\n"
-"    "
-msgstr ""
-
-#: edx_proctoring/templates/proctored_exam/verified.html:4
-msgid ""
-"\n"
-"      Your proctoring session was reviewed and passed all requirements\n"
-"    "
-msgstr ""
-
-#: edx_proctoring/templates/proctored_exam/verified.html:10
-msgid ""
-"\n"
-"      You are eligible to purchase academic credit for this course if you complete all required exams\n"
-"      and also achieve a final grade that meets the credit requirements for the course.\n"
-"    "
-msgstr ""
-
-#: edx_proctoring/templates/proctored_exam/visit_exam_content.html:5
-msgid ""
-"\n"
-"      To view your exam questions and responses, select <strong>View my exam</strong>. The exam's review status is shown in the left navigation pane.\n"
-"    "
-msgstr ""
-
-#: edx_proctoring/templates/proctored_exam/visit_exam_content.html:11
+#: templates/proctored_exam/visit_exam_content.html:11
 msgid "View my exam"
-msgstr ""
+msgstr "میری امتحان دیکھیں"
 
-#: edx_proctoring/templates/proctored_exam/visit_exam_content.html:40
+#: templates/proctored_exam/visit_exam_content.html:40
 msgid ""
-"\n"
-"      After the due date for this exam has passed, you will be able to review your answers on this page.\n"
-"    "
+"After the due date for this exam has passed, you will be able to review your"
+" answers on this page."
 msgstr ""
+"اس امتحان کے لئے مقررہ تاریخ منظور ہونے کے بعد، آپ اس صفحہ پر آپ کے جوابات "
+"کا جائزہ لے سکیں گے."
 
-#: edx_proctoring/templates/timed_exam/entrance.html:4
-#, python-format
-msgid ""
-"\n"
-"    %(exam_name)s is a Timed Exam (%(total_time)s)\n"
-"    "
-msgstr ""
+#: templates/timed_exam/entrance.html:4
+msgid "%(exam_name)s is a Timed Exam (%(total_time)s)"
+msgstr "%(exam_name)s ایک ٹائم ٹیسٹ (%(total_time)s) ہے."
 
-#: edx_proctoring/templates/timed_exam/entrance.html:9
+#: templates/timed_exam/entrance.html:9
 msgid "This exam has a time limit associated with it."
-msgstr ""
+msgstr "یہ امتحان اس کے ساتھ منسلک ایک وقت کی حد ہے."
 
-#: edx_proctoring/templates/timed_exam/entrance.html:11
+#: templates/timed_exam/entrance.html:11
 msgid "To pass this exam, you must complete the problems in the time allowed."
 msgstr ""
+"اس امتحان کو منتقل کرنے کے لئے، آپ کو وقت کی اجازت دی جانے والی مشکلات کو "
+"پورا کرنا ضروری ہے."
 
-#: edx_proctoring/templates/timed_exam/entrance.html:13
-msgid "After you select "
-msgstr ""
+#: templates/timed_exam/entrance.html:13
+msgid "After you select"
+msgstr "آپ کو منتخب کرنے کے بعد"
 
-#: edx_proctoring/templates/timed_exam/entrance.html:15
+#: templates/timed_exam/entrance.html:15
 msgid "I am ready to start this timed exam,"
-msgstr ""
+msgstr "میں اس ٹائم شدہ امتحان شروع کرنے کے لئے تیار ہوں،"
 
-#: edx_proctoring/templates/timed_exam/entrance.html:17
-msgid "you will have "
-msgstr ""
+#: templates/timed_exam/entrance.html:17
+msgid "you will have"
+msgstr "آپ کو پڑے گا"
 
-#: edx_proctoring/templates/timed_exam/entrance.html:17
-msgid " to complete and submit the exam."
-msgstr ""
+#: templates/timed_exam/entrance.html:17
+msgid "to complete and submit the exam."
+msgstr "امتحان مکمل کرنے اور جمع کرنے کے لئے."
 
-#: edx_proctoring/templates/timed_exam/entrance.html:21
-msgid ""
-"\n"
-"        I am ready to start this timed exam.\n"
-"      "
-msgstr ""
+#: templates/timed_exam/entrance.html:21
+msgid "I am ready to start this timed exam."
+msgstr "میں اس ٹائم شدہ امتحان شروع کرنے کے لئے تیار ہوں."
 
-#: edx_proctoring/templates/timed_exam/footer.html:3
+#: templates/timed_exam/footer.html:3
 msgid "Can I request additional time to complete my exam?"
 msgstr ""
+"کیا میں اپنی امتحان کو مکمل کرنے کے لئے اضافی وقت کی درخواست کر سکتا ہوں؟"
 
-#: edx_proctoring/templates/timed_exam/footer.html:4
+#: templates/timed_exam/footer.html:4
 msgid ""
-"\n"
-"      If you have disabilities,\n"
+"If you have disabilities,\n"
 "      you might be eligible for an additional time allowance on timed exams.\n"
-"      Ask your course team for information about additional time allowances.\n"
-"    "
+"      Ask your course team for information about additional time allowances."
 msgstr ""
+"اگر آپ معذور ہیں تو، آپ کو ٹائم شدہ امتحانوں پر اضافی وقت کی الاؤنس کے اہل "
+"ہوسکتا ہے. اضافی وقت کے الاؤنس کے بارے میں معلومات کے لئے اپنے کورس کی ٹیم "
+"سے پوچھیں."
 
-#: edx_proctoring/templates/timed_exam/ready_to_submit.html:4
+#: templates/timed_exam/ready_to_submit.html:4
+msgid "Are you sure that you want to submit your timed exam?"
+msgstr ""
+"کیا آپ اس بات کو یقینی بناتے ہیں کہ آپ اپنا ٹائم شدہ امتحان جمع کرنا چاہتے "
+"ہیں؟"
+
+#: templates/timed_exam/ready_to_submit.html:14
+msgid "After you submit your exam, your exam will be graded."
+msgstr "آپ اپنی امتحان جمع کرنے کے بعد، آپ کا امتحان درجہ بندی کیا جائے گا."
+
+#: templates/timed_exam/ready_to_submit.html:19
+msgid "Yes, submit my timed exam."
+msgstr "جی ہاں، اپنا ٹائم ٹیسٹ کریں."
+
+#: templates/timed_exam/ready_to_submit.html:25
+msgid "No, I want to continue working."
+msgstr "نہیں، میں کام جاری رکھنا چاہتا ہوں."
+
+#: templates/timed_exam/submitted.html:6
 msgid ""
-"\n"
-"      Are you sure that you want to submit your timed exam?\n"
-"    "
+"The time allotted for this exam has expired. Your exam has been submitted "
+"and any work you completed will be graded."
 msgstr ""
+"اس امتحان کے لئے مختص کردہ وقت ختم ہو گیا ہے. آپ کی امتحان جمع کردی گئی ہے "
+"اور آپ کے مکمل کردہ کام کو درجہ بندی کیا جائے گا."
 
-#: edx_proctoring/templates/timed_exam/ready_to_submit.html:14
+#: templates/timed_exam/submitted.html:10
+msgid "You have submitted your timed exam."
+msgstr "آپ نے اپنا ٹائم ٹیسٹ کیا ہے."
+
+#: templates/timed_exam/submitted.html:18
 msgid ""
-"\n"
-"      After you submit your exam, your exam will be graded.\n"
-"    "
+"Your grade for this timed exam will be immediately available on the <a "
+"href=\"%(progress_page_url)s\">Progress</a> page."
 msgstr ""
+"اس ٹائم ٹیسٹ کے لئے آپ کا گریڈ <a href=\"%(progress_page_url)s\">پیش رفت "
+"کے</a> صفحے پر فوری طور پر دستیاب ہوگا."
 
-#: edx_proctoring/templates/timed_exam/ready_to_submit.html:19
+#: templates/timed_exam/submitted.html:22
 msgid ""
-"\n"
-"      Yes, submit my timed exam.\n"
-"    "
+"After the due date has passed, you can review the exam, but you cannot "
+"change your answers."
 msgstr ""
+"متوقع تاریخ منظور ہونے کے بعد، آپ امتحان کا جائزہ لے سکتے ہیں، لیکن آپ اپنے "
+"جوابات کو تبدیل نہیں کرسکتے ہیں."
 
-#: edx_proctoring/templates/timed_exam/ready_to_submit.html:25
-msgid ""
-"\n"
-"        No, I want to continue working.\n"
-"      "
-msgstr ""
-
-#: edx_proctoring/templates/timed_exam/submitted.html:6
-msgid ""
-"\n"
-"        The time allotted for this exam has expired. Your exam has been submitted and any work you completed will be graded.\n"
-"      "
-msgstr ""
-
-#: edx_proctoring/templates/timed_exam/submitted.html:10
-msgid ""
-"\n"
-"        You have submitted your timed exam.\n"
-"      "
-msgstr ""
-
-#: edx_proctoring/templates/timed_exam/submitted.html:18
-#, python-format
-msgid ""
-"\n"
-"      Your grade for this timed exam will be immediately available on the <a href=\"%(progress_page_url)s\">Progress</a> page.\n"
-"    "
-msgstr ""
-
-#: edx_proctoring/templates/timed_exam/submitted.html:22
-msgid ""
-"\n"
-"        After the due date has passed, you can review the exam, but you cannot change your answers.\n"
-"      "
-msgstr ""
-
-#: edx_proctoring/utils.py:76
-#, python-brace-format
+#: utils.py:76
 msgid "{num_of_hours} hour"
-msgstr ""
+msgstr "{num_of_hours} گھنٹے"
 
-#: edx_proctoring/utils.py:79
-#, python-brace-format
+#: utils.py:79
 msgid "{num_of_hours} hours"
-msgstr ""
+msgstr "{num_of_hours} گھنٹے"
 
-#: edx_proctoring/utils.py:87 edx_proctoring/utils.py:97
-#, python-brace-format
+#: utils.py:87 utils.py:97
 msgid "{num_of_minutes} minutes"
-msgstr ""
+msgstr "{num_of_minutes} منٹ"
 
-#: edx_proctoring/utils.py:90
-#, python-brace-format
-msgid " and {num_of_minutes} minute"
-msgstr ""
+#: utils.py:90
+msgid "and {num_of_minutes} minute"
+msgstr "اور {num_of_minutes} منٹ"
 
-#: edx_proctoring/utils.py:92
-#, python-brace-format
+#: utils.py:92
 msgid "{num_of_minutes} minute"
-msgstr ""
+msgstr "{num_of_minutes} منٹ"
 
-#: edx_proctoring/utils.py:95
-#, python-brace-format
-msgid " and {num_of_minutes} minutes"
-msgstr ""
+#: utils.py:95
+msgid "and {num_of_minutes} minutes"
+msgstr "اور {num_of_minutes} منٹ"
 
-#: edx_proctoring/views.py:92
+#: views.py:92
 msgid "could not determine the course_id"
-msgstr ""
+msgstr "کورس_ڈ کا تعین نہیں کیا جا سکا"
 
-#: edx_proctoring/views.py:102
+#: views.py:102
 msgid "Must be a Staff User to Perform this request."
-msgstr ""
+msgstr "اس درخواست کو انجام دینے کے لئے اسٹاف صارف ہونا ضروری ہے."
 
-#: edx_proctoring/views.py:334 edx_proctoring/views.py:546
-#, python-brace-format
+#: views.py:334 views.py:546
 msgid "you have {remaining_time} remaining"
-msgstr ""
+msgstr "آپ کے پاس {remaining_time} باقی ہے"
 
-#: edx_proctoring/views.py:340
+#: views.py:340
 msgid "you have less than a minute remaining"
-msgstr ""
+msgstr "آپ کے پاس باقی ایک منٹ سے بھی کم ہے"
 
-#: edx_proctoring/views.py:536
+#: views.py:536
 msgid "timed"
-msgstr ""
+msgstr "ٹائمز"
 
-#: edx_proctoring/views.py:537
+#: views.py:537
 msgid "practice"
-msgstr ""
+msgstr "مشق"
 
-#: edx_proctoring/views.py:537
+#: views.py:537
 msgid "proctored"
-msgstr ""
+msgstr "proctored"
