@@ -1,30 +1,21 @@
 {% load i18n %}
 <div class="sequence timed-exam completed" data-exam-id="{{exam_id}}">
   <h3>
-    {% blocktrans %}
-      Are you sure that you want to submit your timed exam?
-    {% endblocktrans %}
+    کیا آپ اس بات کو یقینی بناتے ہیں کہ آپ اپنا ٹائم شدہ امتحان جمع کرنا چاہتے ہیں؟
   </h3>
   <p>
-    {% blocktrans %}
-      Make sure that you have selected "Submit" for each problem before you submit your exam.
-    {% endblocktrans %}
+    اس بات کو یقینی بنائیں کہ آپ اپنی امتحان جمع کرنے سے قبل ہر مسئلے کے لئے "جمع" کا انتخاب کیا ہے
+
   </p>
   <p>
-    {% blocktrans %}
-      After you submit your exam, your exam will be graded.
-    {% endblocktrans %}
+    آپ اپنی امتحان جمع کرنے کے بعد، آپ کا امتحان درجہ بندی کیا جائے گا.
   </p>
   <button type="button" name="submit-proctored-exam" class="exam-action-button btn btn-pl-primary btn-base" data-action="submit" data-exam-id="{{exam_id}}" data-change-state-url="{{change_state_url}}">
-    {% blocktrans %}
-      Yes, submit my timed exam.
-    {% endblocktrans %}
+    جی ہاں، اپنا ٹائم ٹیسٹ کریں.
   </button>
   {% if does_time_remain %}
     <button type="button" name="goback-proctored-exam" class="exam-action-button btn btn-secondary btn-base" data-action="start" data-exam-id="{{exam_id}}" data-change-state-url="{{change_state_url}}" style="box-shadow: none">
-      {% blocktrans %}
-        No, I want to continue working.
-      {% endblocktrans %}
+      نہیں، میں کام جاری رکھنا چاہتا ہوں.
     </button>
   {% endif %}
 </div>

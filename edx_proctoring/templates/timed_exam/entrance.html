@@ -1,26 +1,22 @@
 {% load i18n %}
 <div class="sequence timed-exam entrance" data-exam-id="{{exam_id}}">
   <h3>
-    {% blocktrans %}
-    {{ exam_name }} is a Timed Exam ({{total_time}})
-    {% endblocktrans %}
+      {{total_time|lower}}   ٹائم ٹیسٹ
   </h3>
   <p>
     {% trans "This exam has a time limit associated with it." %}
     <strong>
       {% trans "To pass this exam, you must complete the problems in the time allowed." %}
     </strong>
-    {% trans "After you select " %}
+    آپ کو منتخب کرنے کے بعد
     <strong>
       {% trans "I am ready to start this timed exam," %}
     </strong>
-    {% trans "you will have "%} {{total_time|lower}} {% trans " to complete and submit the exam." %}
+      امتحان مکمل کرنے اور جمع کرنے کے لئے آپ کے پاس{{total_time|lower}}
   </p>
   <button class="gated-sequence start-timed-exam action-primary" data-ajax-url="{{enter_exam_endpoint}}" data-exam-id="{{exam_id}}">
     <a>
-      {% blocktrans %}
-        I am ready to start this timed exam.
-      {% endblocktrans %}
+       امتحان مکمل کرنے اور جمع کرنے کے لئے آپ کے پاس {{total_time|lower}} ہیں
       <span class="icon fa fa-arrow-circle-right" aria-hidden="true"></span>
     </a>
   </button>
